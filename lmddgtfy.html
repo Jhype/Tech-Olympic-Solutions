@@ -1,0 +1,31 @@
+<html>
+   <head>
+      
+      <script type="text/javascript">
+         <!--
+            function searchIt() 
+			{
+			   sound();
+			   window.location="https://duckduckgo.com/?q=" + search.value;
+            }
+         //-->
+		 <!--
+			function sound()
+			{
+				var audio = document.getElementById("audio");
+				audio.play();
+			}
+		 //-->
+      </script>
+      
+   </head>
+   
+   <body>
+      <form>
+		<input type="text" name="search" id="search" />
+        <input type="button" onclick="searchIt()" value="Search" />
+		<audio id="audio" src="http://www.uwgb.edu/birds/wbba/species/audios/DUCK__WOOD.MP3" />
+      </form>
+      
+   </body>
+</html>
